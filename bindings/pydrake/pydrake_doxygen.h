@@ -531,6 +531,26 @@ If using CLion, you can still connect to the `gdbserver` instance.
 There are analogs for `lldb` / `lldbserver` but for brevity, only GDB is
 covered.
 
+# Debugging with a Binary Install folder
+
+If you're using the Drake binary install and want a similar layout with debug
+symbols, then use the following command to build it.
+`<install path>` below should be a path to an empty folder that will contain
+the binary install.
+
+```
+bazel  run --compilation_mode=dbg //:install -- --no_strip <install path>
+```
+
+# Enable Extra Drake logging
+
+Set Drake's log level to `trace` to get extra console output.
+
+```
+from pydrake.common import set_log_level
+set_log_level("trace")
+```
+
 */
 
 // TODO(eric.cousineau): If it ever stops redirecting stdin, use
