@@ -39,7 +39,7 @@ namespace drake {
 namespace multibody {
 namespace {
 
-using geometry::DrakeVisualizer;
+using geometry::DrakeVisualizerd;
 using geometry::SceneGraph;
 using multibody::AddMultibodyPlantSceneGraph;
 using multibody::Parser;
@@ -67,7 +67,7 @@ TEST_P(ParseTest, ParsesSdfAndVisualizes) {
 
   // Visualize via publishing, if requested.
   if (FLAGS_visualize || FLAGS_visualize_sec > 0.0) {
-    DrakeVisualizer::AddToBuilder(&builder, scene_graph);
+    DrakeVisualizerd::AddToBuilder(&builder, scene_graph);
     plant.Finalize();
     auto diagram = builder.Build();
     drake::log()->info("Visualize: {}", object_name);
