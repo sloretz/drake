@@ -30,7 +30,7 @@ The original URDF is here:
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes/pelvis.obj" />
+        <mesh filename="package://drake/examples/multibody/cassie_benchmark/meshes/pelvis.obj" />
       </geometry>
       <material name="">
         <color
@@ -382,7 +382,7 @@ The original URDF is here:
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes/tarsus.obj" />
+        <mesh filename="package://drake/examples/multibody/cassie_benchmark/meshes/tarsus.obj" />
       </geometry>
       <material name="">
         <color rgba="0.024 0.24 0.5 1.0" />
@@ -525,7 +525,7 @@ The original URDF is here:
         rpy="0 0 0" />
       <geometry>
         <mesh filename="package://drake/examples/multibody/cassie_benchmark/meshes/agility/left_foot.obj" />
-        <!-- <mesh filename="meshes/toe.obj" /> -->
+        <!-- <mesh filename="package://drake/examples/multibody/cassie_benchmark/meshes/toe.obj" /> -->
       </geometry>
       <material name="">
         <color rgba="0.4 0.4 0.4 1" />
@@ -940,7 +940,7 @@ The original URDF is here:
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes/pelvis.obj" />
+        <mesh filename="package://drake/examples/multibody/cassie_benchmark/meshes/pelvis.obj" />
       </geometry>
       <material name="">
         <color
@@ -1292,7 +1292,7 @@ The original URDF is here:
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes/tarsus.obj" />
+        <mesh filename="package://drake/examples/multibody/cassie_benchmark/meshes/tarsus.obj" />
       </geometry>
       <material name="">
         <color rgba="0.024 0.24 0.5 1.0" />
@@ -1435,7 +1435,7 @@ The original URDF is here:
         rpy="0 0 0" />
       <geometry>
         <mesh filename="package://drake/examples/multibody/cassie_benchmark/meshes/agility/left_foot.obj" />
-        <!-- <mesh filename="meshes/toe.obj" /> -->
+        <!-- <mesh filename="package://drake/examples/multibody/cassie_benchmark/meshes/toe.obj" /> -->
       </geometry>
       <material name="">
         <color rgba="0.4 0.4 0.4 1" />
@@ -1850,7 +1850,7 @@ The original URDF is here:
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes/pelvis.obj" />
+        <mesh filename="package://drake/examples/multibody/cassie_benchmark/meshes/pelvis.obj" />
       </geometry>
       <material name="">
         <color
@@ -2202,7 +2202,7 @@ The original URDF is here:
         xyz="0 0 0"
         rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes/tarsus.obj" />
+        <mesh filename="package://drake/examples/multibody/cassie_benchmark/meshes/tarsus.obj" />
       </geometry>
       <material name="">
         <color rgba="0.024 0.24 0.5 1.0" />
@@ -2345,7 +2345,7 @@ The original URDF is here:
         rpy="0 0 0" />
       <geometry>
         <mesh filename="package://drake/examples/multibody/cassie_benchmark/meshes/agility/left_foot.obj" />
-        <!-- <mesh filename="meshes/toe.obj" /> -->
+        <!-- <mesh filename="package://drake/examples/multibody/cassie_benchmark/meshes/toe.obj" /> -->
       </geometry>
       <material name="">
         <color rgba="0.4 0.4 0.4 1" />
