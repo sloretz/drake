@@ -7,9 +7,9 @@
 <!-- ===================================================================== -->
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="iiwa14">
   <!-- Import Rviz colors -->
-  <xacro:include filename="$(find iiwa_description)/urdf/materials.xacro"/>
+  <xacro:include filename="materials.xacro"/>
   <!--Import the lbr iiwa macro -->
-  <xacro:include filename="$(find iiwa_description)/urdf/iiwa14.xacro"/>
+  <xacro:include filename="iiwa14.xacro"/>
   <xacro:arg name="hardware_interface" default="PositionJointInterface"/>
   <xacro:arg name="robot_name" default="iiwa"/>
   <!-- Defines a base link that will serve as the model's root. -->
